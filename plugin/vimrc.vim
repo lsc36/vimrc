@@ -7,6 +7,7 @@
 "
 "Plugin 'bling/vim-airline'
 "Plugin 'davidhalter/jedi-vim'
+"Plugin 'kchmck/vim-coffee-script'
 "Plugin 'scrooloose/nerdtree'
 "Plugin 'tpope/vim-fugitive'
 "
