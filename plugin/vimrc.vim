@@ -33,7 +33,7 @@ set nu
 set showmatch
 
 set ts=4 sw=4 et
-set tw=80
+set tw=120
 autocmd Filetype html set ts=2 sw=2
 autocmd Filetype asm set ts=8 sw=8 noet ai
 
