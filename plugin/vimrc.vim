@@ -5,8 +5,8 @@
 "
 "Plugin 'gmarik/Vundle.vim'
 "
+"Plugin 'Valloric/YouCompleteMe'
 "Plugin 'bling/vim-airline'
-"Plugin 'davidhalter/jedi-vim'
 "Plugin 'kchmck/vim-coffee-script'
 "Plugin 'scrooloose/nerdtree'
 "Plugin 'tpope/vim-fugitive'
@@ -56,3 +56,5 @@ autocmd VimEnter * wincmd p
 set laststatus=2
 let g:airline#extensions#tabline#enabled = 1
 "let g:airline#extensions#tabline#fnamemod = ':t'
+
+set completeopt=menu,menuone
