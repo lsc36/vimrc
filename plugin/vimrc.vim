@@ -32,10 +32,11 @@ set noundofile
 set nu
 set showmatch
 
-set ts=4 sw=4 et
+set ts=4 sw=4 sts=4 et
 set tw=120
-autocmd Filetype html set ts=2 sw=2
-autocmd Filetype asm set ts=8 sw=8 noet ai
+autocmd Filetype html set ts=2 sw=2 sts=2
+autocmd Filetype coffee set ts=2 sw=2 sts=2
+autocmd Filetype asm set ts=8 sw=8 sts=8 noet ai
 
 autocmd Filetype html setlocal omnifunc=htmlcomplete#CompleteTags
 autocmd Filetype htmldjango setlocal omnifunc=htmlcomplete#CompleteTags
