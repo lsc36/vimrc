@@ -1,4 +1,4 @@
 # vimrc
 My vimrc
 
-Install with Vundle.vim.
+Install with vim-plug.

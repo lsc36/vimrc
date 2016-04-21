@@ -1,20 +1,14 @@
-"set nocp
-"filetype off
-"set rtp+=~/.vim/bundle/Vundle.vim
-"call vundle#begin()
+"call plug#begin('~/.vim/plugged')
 "
-"Plugin 'gmarik/Vundle.vim'
+"Plug 'Valloric/YouCompleteMe'
+"Plug 'bling/vim-airline'
+"Plug 'kchmck/vim-coffee-script'
+"Plug 'scrooloose/nerdtree'
+"Plug 'tpope/vim-fugitive'
 "
-"Plugin 'Valloric/YouCompleteMe'
-"Plugin 'bling/vim-airline'
-"Plugin 'kchmck/vim-coffee-script'
-"Plugin 'scrooloose/nerdtree'
-"Plugin 'tpope/vim-fugitive'
+"Plug 'lsc36/vimrc'
 "
-"Plugin 'lsc36/vimrc'
-"
-"call vundle#end()
-"filetype plugin indent on
+"call plug#end()
 
 so $VIMRUNTIME/macros/matchit.vim
 
